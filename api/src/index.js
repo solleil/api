@@ -6,4 +6,4 @@ const server = express();
 server.use(cors());
 server.use(express.json())
 
-server.listen(process.env.port, () => console.log(`api conectada na ${process.env.PORT}`))
+server.listen(process.env.PORT, () => console.log(`api conectada na ${process.env.PORT}`))
